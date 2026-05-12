@@ -245,7 +245,7 @@
                 <div class="bg-white rounded-lg border p-6 hover:shadow-lg"><div class="bg-purple-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4"><i data-lucide="gift" class="w-8 h-8 text-white"></i></div><h3 class="text-xl font-bold mb-2 text-center">Gift Cards</h3><p class="text-gray-600 text-center">Amazon, iTunes, Google Play & more</p></div>
             </div>
             <div class="mt-8 bg-blue-50 border-2 border-blue-300 rounded-lg p-6"><div class="flex items-start gap-4"><div class="bg-blue-600 text-white p-3 rounded-full"><i data-lucide="info" class="w-6 h-6"></i></div><div><h3 class="text-xl font-bold text-blue-900">ℹ️ Payment & Safety Info</h3><p class="text-blue-800">This is an independent secondary marketplace. Verify seller credentials before purchase. No official payment guarantees apply.</p></div></div></div>
-            <div class="mt-6 bg-blue-50 border-2 border-blue-200 rounded-lg p-6"><div class="flex items-start gap-4"><div class="bg-blue-600 text-white p-3 rounded-full"><i data-lucide="gift" class="w-6 h-6"></i></div><div><h3 class="text-xl font-bold">Pay with Gift Cards</h3><p>Contact us via WhatsApp or Email to pay with Amazon, iTunes, Google Play cards.</p><div class="flex gap-3 mt-3"><a href="https://wa.me/12148853631" class="bg-green-600 text-white px-4 py-2 rounded">WhatsApp</a><a href="mailto:management@thefanlounge.site?subject=World Cup 2026 Ticket Inquiry" class="bg-blue-600 text-white px-4 py-2 rounded">Email</a></div></div></div></div>
+            <div class="mt-6 bg-blue-50 border-2 border-blue-200 rounded-lg p-6"><div class="flex items-start gap-4"><div class="bg-blue-600 text-white p-3 rounded-full"><i data-lucide="gift" class="w-6 h-6"></i></div><div><h3 class="text-xl font-bold">Pay with Gift Cards</h3><p>Contact us via WhatsApp or Email to pay with Amazon, iTunes, Google Play cards.</p><div class="flex gap-3 mt-3"><a href="https://wa.me/15082935434" class="bg-green-600 text-white px-4 py-2 rounded">WhatsApp</a><a href="mailto:management@thefanlounge.site?subject=World Cup 2026 Ticket Inquiry" class="bg-blue-600 text-white px-4 py-2 rounded">Email</a></div></div></div></div>
         </div>
     </section>
 
@@ -255,7 +255,7 @@
             <h2 class="text-3xl font-bold">Need Help?</h2>
             <p class="mt-4">📱 WhatsApp: +1 (214) 885-3631 &nbsp;|&nbsp; ✉️ <a href="mailto:management@thefanlounge.site?subject=World Cup 2026 Ticket Inquiry">management@thefanlounge.site</a></p>
             <div class="mt-4 flex justify-center gap-3 flex-wrap">
-                <a href="https://wa.me/12148853631" class="bg-green-600 text-white px-5 py-3 rounded-lg font-semibold hover:bg-green-700">WhatsApp Us</a>
+                <a href="https://wa.me/15082935434" class="bg-green-600 text-white px-5 py-3 rounded-lg font-semibold hover:bg-green-700">WhatsApp Us</a>
                 <a href="mailto:management@thefanlounge.site?subject=World Cup 2026 Ticket Inquiry" class="bg-blue-600 text-white px-5 py-3 rounded-lg font-semibold hover:bg-blue-700">Email Support</a>
             </div>
             <p class="mt-6 text-gray-600">Marketplace support for buyer inquiries</p>
@@ -291,7 +291,7 @@
                         <p class="text-sm text-gray-400">📱 +1 (214) 885-3631</p>
                     <p class="text-sm text-gray-400">✉️ <a href="mailto:management@thefanlounge.site?subject=World Cup 2026 Ticket Inquiry">management@thefanlounge.site</a></p>
                     <div class="mt-3">
-                        <a href="https://wa.me/12148853631" class="inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 text-sm font-semibold">WhatsApp</a>
+                        <a href="https://wa.me/15082935434" class="inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 text-sm font-semibold">WhatsApp</a>
                     </div>
                 </div>
             </div>
@@ -625,8 +625,8 @@
                   }
         function copyPaymentAddress(type) {
             const addresses = {
-                bitcoin: 'bc1qdu7aqv8wmyqpssk3adx6w4z7nn60py0mfsy9jf',
-                usdt: 'TWzvQW29oPmL8MR6QSMe1U8dwWt4k66aSm'
+                bitcoin: 'bc1qr5svwus33xtmrzxu7zvgn45su87vsahhk7njea',
+                usdt: 'TVp5mmaRqwWoxFfSA7n9EaqjWfjx4UUaMA'
             };
             const text = addresses[type];
             navigator.clipboard.writeText(text).then(() => {
@@ -730,10 +730,10 @@
             if(check) check.classList.remove('hidden');
             const total = cart.reduce((s,i)=>s + i.currentPrice * i.quantity,0);
             let html = '';
-            if(method==='bitcoin') html=`<div class="bg-gray-50 p-4 rounded border"><p class="font-bold">Bitcoin Payment</p><p>Send $${total} BTC to:</p><div class="payment-address mt-2 flex items-center justify-between gap-3"><span>bc1qdu7aqv8wmyqpssk3adx6w4z7nn60py0mfsy9jf</span><button onclick="copyPaymentAddress('bitcoin')" class="bg-blue-600 text-white px-3 py-1 rounded text-sm">Copy</button></div><p class="text-sm mt-2">After payment, contact support with TX ID.</p></div>`;
-            else if(method==='usdt') html=`<div class="bg-gray-50 p-4 rounded border"><p class="font-bold">USDT Payment</p><p>Send $${total} USDT to:</p><div class="payment-address mt-2 flex items-center justify-between gap-3"><span>TWzvQW29oPmL8MR6QSMe1U8dwWt4k66aSm</span><button onclick="copyPaymentAddress('usdt')" class="bg-blue-600 text-white px-3 py-1 rounded text-sm">Copy</button></div><p class="text-sm mt-2">Network: TRON (TRC20).</p></div>`;
+            if(method==='bitcoin') html=`<div class="bg-gray-50 p-4 rounded border"><p class="font-bold">Bitcoin Payment</p><p>Send $${total} BTC to:</p><div class="payment-address mt-2 flex items-center justify-between gap-3"><span>bc1qr5svwus33xtmrzxu7zvgn45su87vsahhk7njea</span><button onclick="copyPaymentAddress('bitcoin')" class="bg-blue-600 text-white px-3 py-1 rounded text-sm">Copy</button></div><p class="text-sm mt-2">After payment, contact support with TX ID.</p></div>`;
+            else if(method==='usdt') html=`<div class="bg-gray-50 p-4 rounded border"><p class="font-bold">USDT Payment</p><p>Send $${total} USDT to:</p><div class="payment-address mt-2 flex items-center justify-between gap-3"><span>TVp5mmaRqwWoxFfSA7n9EaqjWfjx4UUaMA</span><button onclick="copyPaymentAddress('usdt')" class="bg-blue-600 text-white px-3 py-1 rounded text-sm">Copy</button></div><p class="text-sm mt-2">Network: TRON (TRC20).</p></div>`;
             else if(method==='paypal') html=`<div class="bg-gray-50 p-4 rounded border"><p class="font-bold">PayPal Payment</p><p class="text-red-600 font-semibold">PayPal is currently unavailable.</p><p class="text-sm mt-2">Please choose another payment method.</p></div>`;
-            else html=`<div class="bg-gray-50 p-4 rounded border"><p class="font-bold">Gift Card Payment</p><p>Total value needed: <strong>$${total}</strong></p><p class="mt-2">We accept Amazon, iTunes, Google Play, Steam gift cards.</p><div class="flex gap-3 mt-3"><a href="https://wa.me/12148853631" target="_blank" class="bg-green-600 text-white px-4 py-2 rounded text-center inline-block">📱 WhatsApp Us</a><a href="mailto:management@thefanlounge.site?subject=World Cup 2026 Ticket Inquiry" class="bg-blue-600 text-white px-4 py-2 rounded text-center inline-block">✉️ Email Us</a></div><p class="mt-2 text-sm">Email: management@thefanlounge.site</p></div>`;
+            else html=`<div class="bg-gray-50 p-4 rounded border"><p class="font-bold">Gift Card Payment</p><p>Total value needed: <strong>$${total}</strong></p><p class="mt-2">We accept Amazon, iTunes, Google Play, Steam gift cards.</p><div class="flex gap-3 mt-3"><a href="https://wa.me/15082935434" target="_blank" class="bg-green-600 text-white px-4 py-2 rounded text-center inline-block">📱 WhatsApp Us</a><a href="mailto:management@thefanlounge.site?subject=World Cup 2026 Ticket Inquiry" class="bg-blue-600 text-white px-4 py-2 rounded text-center inline-block">✉️ Email Us</a></div><p class="mt-2 text-sm">Email: management@thefanlounge.site</p></div>`;
             document.getElementById('payment-instructions').innerHTML = html + `<div class="mt-4 bg-yellow-50 p-3 rounded"><p class="text-sm">⚠️ After payment, contact our support team with your payment proof to receive your tickets instantly.</p></div>`;
             document.getElementById('payment-instructions').classList.remove('hidden');
         }
